@@ -52,7 +52,18 @@ if (totalShoppingCart > 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+const totalShoppingCart1 = 60;
+const div1 = 60 / 10;
+console.log(div1);
+const div2 = 6 * 2;
+console.log(div2);
+const totalShoppingCart1discount = 48;
+console.log(totalShoppingCart1discount);
+if (totalShoppingCart1discount < 50) {
+  console.log(totalShoppingCart1discount);
+} else {
+  console.log(totalShoppingCart1discount + 10);
+}
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
